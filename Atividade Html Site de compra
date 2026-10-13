@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Fit Smartwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header class="topo">
+        <nav class="menu">
+            <a class="logo" href="#">NOVA FIT</a>
+
+            <div class="links">
+                <a href="#produto">Produto</a>
+                <a href="#caracteristicas">Características</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+
+        <section class="chamada">
+            <p class="etiqueta">TECNOLOGIA • ESTILO • PRATICIDADE</p>
+
+            <h1>Seu dia.<br>
+                <span>No seu ritmo.</span>
+            </h1>
+
+            <p>
+                Conheça o smartwatch que combina com sua rotina
+                e deixa suas informações sempre à mão.
+            </p>
+
+            <a class="botao" href="#produto">
+                Conheça o produto
+            </a>
+        </section>
+    </header>
+
+    <!-- Apresentação do produto -->
+    <main>
+        <section class="produto" id="produto">
+
+            <div class="imagem-produto">
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=85"
+                    alt="Relógio de pulso moderno">
+            </div>
+
+            <div class="detalhes">
+                <p class="etiqueta">LANÇAMENTO</p>
+
+                <h2>Nova Fit Smartwatch</h2>
+
+                <p class="descricao">
+                    Um relógio inteligente com visual moderno
+                    para acompanhar seus compromissos, suas
+                    atividades e o seu dia a dia.
+                </p>
+
+                <p class="preco">R$ 279,90</p>
+
+                <p class="parcelamento">
+                    Preço promocional de lançamento.
+                </p>
+
+                <a class="botao" href="#contato">
+                    Quero comprar
+                </a>
+            </div>
+        </section>
+
+        <!-- Características do produto -->
+        <section class="caracteristicas" id="caracteristicas">
+
+            <p class="etiqueta">MAIS PRATICIDADE PARA VOCÊ</p>
+
+            <h2>Principais características</h2>
+
+            <div class="cartoes">
+
+                <article class="cartao">
+                    <div class="icone">◷</div>
+                    <h3>Design moderno</h3>
+                    <p>
+                        Visual elegante para combinar com
+                        diferentes roupas e ocasiões.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">▣</div>
+                    <h3>Tela digital</h3>
+                    <p>
+                        Consulte as informações do relógio
+                        de maneira prática e rápida.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">♡</div>
+                    <h3>Rotina ativa</h3>
+                    <p>
+                        Recursos para ajudar você a acompanhar
+                        suas atividades diárias.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <div class="icone">✓</div>
+                    <h3>Uso versátil</h3>
+                    <p>
+                        Uma opção prática para o trabalho,
+                        os estudos ou os passeios.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section class="contato" id="contato">
+            <h2>Gostou do Nova Fit?</h2>
+
+            <p>
+                Entre em contato para saber mais sobre o produto.
+            </p>
+
+            <a class="botao" href="mailto:contato@novafit.com">
+                Entrar em contato
+            </a>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 Nova Fit — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
