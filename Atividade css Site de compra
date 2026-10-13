@@ -1,0 +1,262 @@
+/* 1. Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202020;
+    background: #f7f6f2;
+    line-height: 1.6;
+}
+
+/* 2. Cabeçalho */
+.topo {
+    min-height: 480px;
+    color: white;
+    background: linear-gradient(120deg, #101b2c, #273b54);
+    padding: 24px 8% 70px;
+}
+
+/* 3. Menu de navegação */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #536175;
+    padding-bottom: 18px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.links a {
+    color: #e6eaf0;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.links a:hover {
+    color: #7fe0cb;
+}
+
+/* 4. Texto de apresentação */
+.chamada {
+    max-width: 620px;
+    padding-top: 70px;
+}
+
+.etiqueta {
+    color: #7fe0cb;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.chamada h1 {
+    font-size: clamp(2.7rem, 7vw, 4.8rem);
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.chamada h1 span {
+    color: #7fe0cb;
+}
+
+.chamada > p:not(.etiqueta) {
+    max-width: 480px;
+    color: #d1d9e3;
+    margin-bottom: 28px;
+}
+
+/* 5. Botões */
+.botao {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #7fe0cb;
+    color: #10212c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.botao:hover {
+    background: #a2f0e0;
+    transform: translateY(-2px);
+}
+
+/* 6. Área do produto */
+.produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 28px;
+}
+
+.imagem-produto {
+    min-height: 350px;
+    border-radius: 14px;
+    background: #e8e5de;
+    overflow: hidden;
+}
+
+.imagem-produto img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.detalhes h2,
+.caracteristicas h2 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.descricao {
+    color: #666;
+    margin-bottom: 22px;
+}
+
+.preco {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.parcelamento {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+}
+
+/* 7. Características do produto */
+.caracteristicas {
+    background: white;
+    text-align: center;
+    padding: 75px 8%;
+}
+
+.cartoes {
+    max-width: 1100px;
+    margin: 35px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    text-align: left;
+}
+
+.cartao {
+    background: #f7f6f2;
+    border: 1px solid #e9e6df;
+    padding: 24px 20px;
+    border-radius: 10px;
+}
+
+.icone {
+    font-size: 2rem;
+    color: #198c79;
+    margin-bottom: 10px;
+}
+
+.cartao h3 {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.cartao p {
+    color: #666;
+    font-size: 0.92rem;
+}
+
+/* 8. Contato */
+.contato {
+    background: #182638;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contato h2 {
+    font-size: clamp(1.6rem, 4vw, 2.3rem);
+    margin-bottom: 10px;
+}
+
+.contato p {
+    color: #d1d9e3;
+    margin-bottom: 22px;
+}
+
+/* 9. Rodapé */
+footer {
+    background: #101b2c;
+    color: #aaa;
+    text-align: center;
+    padding: 18px;
+    font-size: 0.85rem;
+}
+
+/* 10. Adaptação para telas menores */
+@media (max-width: 800px) {
+    .produto {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 55px 22px;
+    }
+
+    .cartoes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .topo {
+        padding: 20px 6% 55px;
+    }
+
+    .menu {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .chamada {
+        padding-top: 50px;
+    }
+
+    .cartoes {
+        grid-template-columns: 1fr;
+    }
+
+    .imagem-produto,
+    .imagem-produto img {
+        min-height: 260px;
+        height: 260px;
+    }
+}
