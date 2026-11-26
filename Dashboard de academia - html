@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDuda - Academia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="menu">
+
+            <div class="logo">
+                <h2>FIT<span>DUDA</span></h2>
+                <p>ACADEMIA</p>
+            </div>
+
+            <nav>
+                <a href="#" class="ativo">⌂ Início</a>
+                <a href="#">♙ Alunos</a>
+                <a href="#">♡ Treinos</a>
+                <a href="#">◷ Horários</a>
+            </nav>
+
+            <div class="menu-final">
+                <p>Seu corpo, sua conquista!</p>
+            </div>
+
+        </aside>
+
+        <!-- ÁREA PRINCIPAL -->
+        <main class="conteudo">
+
+            <!-- CABEÇALHO -->
+            <header class="cabecalho">
+
+                <div class="titulo">
+                    <p class="subtitulo">PAINEL ADMINISTRATIVO</p>
+                    <h1>Olá, seja bem-vindo!</h1>
+                    <p>Acompanhe tudo sobre sua academia.</p>
+                </div>
+
+                <div class="administrador">
+                    <div class="info-admin">
+                        <strong>Administrador</strong>
+                        <span>Gerenciador do sistema</span>
+                    </div>
+
+                    <div class="avatar">AD</div>
+                </div>
+
+            </header>
+
+            <!-- INDICADORES -->
+            <section class="indicadores">
+
+                <div class="card card-roxo">
+                    <span class="icone">♙</span>
+                    <p>Alunos ativos</p>
+                    <h2>120</h2>
+                    <small>Alunos cadastrados</small>
+                </div>
+
+                <div class="card card-rosa">
+                    <span class="icone">♡</span>
+                    <p>Professores</p>
+                    <h2>08</h2>
+                    <small>Equipe profissional</small>
+                </div>
+
+                <div class="card card-lilas">
+                    <span class="icone">▣</span>
+                    <p>Turmas</p>
+                    <h2>12</h2>
+                    <small>Turmas disponíveis</small>
+                </div>
+
+                <div class="card card-azul">
+                    <span class="icone">✦</span>
+                    <p>Modalidades</p>
+                    <h2>05</h2>
+                    <small>Atividades oferecidas</small>
+                </div>
+
+            </section>
+
+            <!-- HORÁRIOS -->
+            <section class="horarios">
+
+                <div class="titulo-horarios">
+                    <div>
+                        <h2>Horários de Hoje</h2>
+                        <p>Confira as atividades programadas.</p>
+                    </div>
+
+                    <span class="etiqueta">AGENDA</span>
+                </div>
+
+                <div class="linha cabecalho-tabela">
+                    <span>HORÁRIO</span>
+                    <span>ATIVIDADE</span>
+                    <span>LOCAL</span>
+                </div>
+
+                <div class="linha">
+                    <span class="hora">08:00</span>
+                    <span>Musculação</span>
+                    <span class="sala">Sala 01</span>
+                </div>
+
+                <div class="linha">
+                    <span class="hora">10:00</span>
+                    <span>Funcional</span>
+                    <span class="sala">Sala 02</span>
+                </div>
+
+                <div class="linha">
+                    <span class="hora">14:00</span>
+                    <span>Alongamento</span>
+                    <span class="sala">Sala 03</span>
+                </div>
+
+                <div class="linha">
+                    <span class="hora">18:00</span>
+                    <span>Spinning</span>
+                    <span class="sala">Sala 02</span>
+                </div>
+
+                <div class="linha">
+                    <span class="hora">20:00</span>
+                    <span>Musculação</span>
+                    <span class="sala">Sala 01</span>
+                </div>
+
+            </section>
+
+            <!-- RODAPÉ -->
+            <footer class="rodape">
+
+                <span>FITDUDA - Sistema de Academia</span>
+                <span>2026 - Todos os direitos reservados</span>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
