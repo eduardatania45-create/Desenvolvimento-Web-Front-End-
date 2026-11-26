@@ -1,0 +1,155 @@
+
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4eff9;
+    font-family: Arial, sans-serif;
+    color: #352943;
+}
+
+/* Card principal */
+
+.perfil {
+    width: 420px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e5d9ef;
+    border-radius: 20px;
+}
+
+/* Parte superior */
+
+.topo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foto {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 15px;
+    background-color: #a879c8;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+.status {
+    color: #579b78;
+    font-size: 12px;
+}
+
+/* Apresentação */
+
+.apresentacao {
+    text-align: center;
+}
+
+.subtitulo {
+    color: #a879c8;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #503365;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #a879c8;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.descricao {
+    color: #706779;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* Habilidades */
+
+.habilidades {
+    border-top: 1px solid #eee5f3;
+    padding-top: 20px;
+    margin-bottom: 22px;
+}
+
+h3 {
+    color: #503365;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.lista li {
+    background-color: #f1e7f8;
+    color: #714b8b;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Contato */
+
+.contato {
+    border-top: 1px solid #eee5f3;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.contato p {
+    color: #706779;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* Botão */
+
+.rodape {
+    text-align: center;
+}
+
+.botao {
+    display: block;
+    background-color: #9564b5;
+    color: white;
+    padding: 13px;
+    border: 2px solid #9564b5;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #9564b5;
+    border: 2px solid #9564b5;
+}
+
+.rodape p {
+    color: #aaa0b2;
+    font-size: 11px;
+    margin-top: 20px;
+}
