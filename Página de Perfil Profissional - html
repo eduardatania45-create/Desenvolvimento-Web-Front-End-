@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitDuda | Perfil Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="perfil">
+
+        <div class="topo">
+            <div class="foto">FD</div>
+            <span class="status">● Disponível para oportunidades</span>
+        </div>
+
+        <section class="apresentacao">
+            <p class="subtitulo">MEU PERFIL PROFISSIONAL</p>
+
+            <h1>Duda Santos</h1>
+
+            <h2>Estudante de Desenvolvimento de Sistemas</h2>
+
+            <p class="descricao">
+                Sou estudante de Desenvolvimento de Sistemas e tenho
+                interesse em tecnologia, programação e criação de sites.
+                Estou sempre buscando aprender coisas novas e desenvolver
+                minhas habilidades na área.
+            </p>
+        </section>
+
+        <section class="habilidades">
+            <h3>Minhas habilidades</h3>
+
+            <ul class="lista">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <h3>Informações de contato</h3>
+
+            <p><strong>E-mail:</strong> eduardatania45@gmail.com</p>
+            <p><strong>Cidade:</strong> Belo Horizonte - MG</p>
+            <p><strong>Área:</strong> Tecnologia da Informação</p>
+        </section>
+
+        <div class="rodape">
+            <a class="botao" href="mailto:eduardatania45@gmail.com">
+                Entrar em contato →
+            </a>
+
+            <p>© 2026 DudaSantos</p>
+        </div>
+
+    </main>
+
+</body>
+</html>
