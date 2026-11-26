@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Festival 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="menu">
+            <h2>NEON<span>FEST</span></h2>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#atracoes">Atrações</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+                <li><a href="#ingressos">Ingressos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- DESTAQUE PRINCIPAL -->
+    <main>
+
+        <section class="inicio" id="inicio">
+
+            <div class="imagem-principal">
+
+                <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1400"
+                alt="Festival de música com iluminação e público">
+
+                <div class="selo">
+                    ÚLTIMOS INGRESSOS
+                </div>
+
+                <div class="destaque">
+                    FESTIVAL 2026
+                </div>
+
+            </div>
+
+            <div class="apresentacao">
+                <p class="subtitulo">A MÚSICA VAI TE ENCONTRAR</p>
+
+                <h1>NEON <span>FESTIVAL</span></h1>
+
+                <p>
+                    Uma experiência inesquecível com música,
+                    energia e momentos que merecem ser vividos.
+                </p>
+
+                <div class="data-local">
+                    <span>📅 19 e 20 de dezembro de 2026</span>
+                    <span>📍 Belo Horizonte - MG</span>
+                </div>
+
+                <a href="#ingressos" class="botao-principal">
+                    GARANTA SEU INGRESSO
+                </a>
+            </div>
+
+        </section>
+
+        <!-- ATRAÇÕES -->
+        <section class="atracoes" id="atracoes">
+
+            <p class="subtitulo">DOIS DIAS DE MUITA MÚSICA</p>
+
+            <h2>ATRAÇÕES <span>CONFIRMADAS</span></h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500"
+                    alt="Cantora no palco">
+                    <h3>LUANA MELO</h3>
+                    <p>Pop e música nacional</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=500"
+                    alt="Show musical">
+                    <h3>DJ VICTOR</h3>
+                    <p>Eletrônica e remix</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=500"
+                    alt="Multidão em festival">
+                    <h3>BANDA VIBE</h3>
+                    <p>Rock e grandes sucessos</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INFORMAÇÕES -->
+        <section class="informacoes" id="informacoes">
+
+            <h2>VIVA ESSA <span>EXPERIÊNCIA</span></h2>
+
+            <div class="info-grid">
+
+                <div class="info-item">
+                    <h3>📅 DATA</h3>
+                    <p>19 e 20 de dezembro</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>📍 LOCAL</h3>
+                    <p>Parque de Exposições - BH</p>
+                </div>
+
+                <div class="info-item">
+                    <h3>⏰ HORÁRIO</h3>
+                    <p>A partir das 16 horas</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- REGRAS -->
+        <section class="regras">
+
+            <h2>REGRAS DO EVENTO</h2>
+
+            <div class="caixa-regras">
+
+                <p>
+                    Para garantir a segurança e o conforto de todos,
+                    os participantes deverão respeitar as regras do
+                    festival durante toda a programação.
+                </p>
+
+                <p>
+                    A entrada será permitida mediante apresentação
+                    do ingresso válido. Recomendamos chegar com
+                    antecedência para evitar filas e facilitar o acesso.
+                </p>
+
+                <p>
+                    Não será permitida a entrada com objetos
+                    cortantes, armas, fogos de artifício ou qualquer
+                    material que possa colocar outras pessoas em risco.
+                </p>
+
+                <p>
+                    É importante respeitar os profissionais da
+                    organização, os artistas e os demais participantes.
+                    Qualquer situação de emergência deverá ser
+                    comunicada imediatamente à equipe do evento.
+                </p>
+
+                <p>
+                    Cuide do espaço, descarte o lixo nos locais
+                    indicados e aproveite a programação com
+                    responsabilidade.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- INGRESSOS -->
+        <section class="ingressos" id="ingressos">
+
+            <h2>SEU LUGAR É AQUI!</h2>
+
+            <p>
+                Não fique de fora dessa experiência.
+                Prepare-se para dois dias inesquecíveis!
+            </p>
+
+            <a href="mailto:ingressos@neonfestival.com"
+            class="botao-ingresso">
+                SOLICITAR INGRESSO
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h3>NEON FESTIVAL 2026</h3>
+        <p>© 2026 - Todos os direitos reservados.</p>
+        <p>Feito para quem vive a música.</p>
+    </footer>
+
+    <!-- BOTÃO FIXO -->
+    <a href="#ingressos" class="botao-fixo">
+        COMPRAR INGRESSO ↗
+    </a>
+
+</body>
+</html>
